@@ -9,8 +9,10 @@ scanf("%f", &nota2);
 printf("Ingrese la tercera calificacion: ");
 scanf("%f", &nota3);
 
-promedio = (nota1 + nota2 + nota3) / 3;
-printf("su promedio final es : %.2f\n", promedio);
+suma = nota1 + nota2 + nota3;
+  promedio = suma / 3;
+printf("la suma total es: %.2f\n", suma);
+printf("Su promedio final es: %.2f\n", promedio);  
 if (promedio >= 70) {
 printf("estado: Aprobado\n");
   } else { 
