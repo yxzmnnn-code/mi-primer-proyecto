@@ -11,7 +11,7 @@ scanf("%f", &nota3);
 
  // Calculamos la suma y luego el promedio 
 suma = nota1 + nota2 + nota3;
-  promedio = suma / 3;
+  promedio = suma /  3;
 printf("la suma total es: %.2f\n", suma);
 printf("Su promedio final es: %.2f\n", promedio);  
 if (promedio >= 70) {
