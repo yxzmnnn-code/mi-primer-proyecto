@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-  float nota1, nota2, nota3, promedio;
+  float nota1, nota2, nota3, suma, promedio;
 
 printf("Ingrese la primera calificacion: ");
 scanf("%f", &nota1);
@@ -9,6 +9,7 @@ scanf("%f", &nota2);
 printf("Ingrese la tercera calificacion: ");
 scanf("%f", &nota3);
 
+ // Calculamos la suma y luego el promedio 
 suma = nota1 + nota2 + nota3;
   promedio = suma / 3;
 printf("la suma total es: %.2f\n", suma);
